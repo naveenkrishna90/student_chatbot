@@ -2,6 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) based chatbot that allows users to upload any textbook (PDF or TXT) and ask questions strictly based on the content of that book.
 
+-----------------------------
 Built using:
 
 LangChain
@@ -12,6 +13,7 @@ FAISS vector database
 
 Streamlit UI
 
+-----------------------------
 
 🚀 Features
 
@@ -28,6 +30,8 @@ Streamlit UI
 ⚡ Vector store created only once per upload (fast queries)
 
 🪵 Detailed logs for ingestion, chunking, and retrieval
+
+-----------------------------
 
 🏗️ Architecture (High Level)
 
@@ -47,6 +51,7 @@ LLM (GPT-4o-mini)
         ↓
 Streamlit Chat UI
 
+--------------------------
 
 📁 Project Structure
 STUDENT_CHATBOT/
@@ -58,6 +63,7 @@ STUDENT_CHATBOT/
 ├── README.md              # Project documentation
 └── venv/                  # Virtual environment (optional)
 
+-------------------------
 
 ⚙️ Prerequisites
 
@@ -67,7 +73,10 @@ OpenAI API Key
 
 Internet connection
 
+-------------------------
+
 🔐 Environment Setup
+
 1️⃣ Clone the Repository
 git clone <your-repo-url>
 cd STUDENT_CHATBOT
@@ -107,6 +116,7 @@ Open in browser:
 
 http://localhost:8501
 
+----------------------------
 
 🧪 How to Use
 
@@ -128,6 +138,8 @@ If the answer is not found:
 
 "I don't know based on the book."
 
+-----------------------------
+
 🧠 RAG Pipeline Steps (Implemented)
 
 ✔️ Data Ingestion
@@ -135,6 +147,8 @@ If the answer is not found:
 ✔️ Embeddings
 ✔️ Vector Store (FAISS)
 ✔️ Retrieval + LLM Response
+
+-----------------------------
 
 🪵 Logging & Debugging
 
@@ -154,6 +168,8 @@ Example:
 ✂️ Split into 950 chunks
 🔧 Vector store created in 6.4s
 ❓ Query answered in 1.1s
+
+-------------------------------
 
 📦 Dependencies
 
@@ -175,6 +191,8 @@ pypdf
 
 (See requirements.txt for full list)
 
+---------------------------------
+
 🔮 Future Enhancements
 
 💾 Persist FAISS index to disk
@@ -189,6 +207,8 @@ pypdf
 
 🧑‍🏫 Grade-level adaptive explanations
 
+---------------------------------
+
 🧑‍💻 Use Cases
 
 School textbook Q&A (Grade 6+)
@@ -201,10 +221,14 @@ Curriculum exploration
 
 EdTech product prototype
 
+----------------------------------
+
 📜 License
 
 This project is for educational and demo purposes.
 Ensure compliance with textbook copyright laws when uploading content.
+
+----------------------------------
 
 🙌 Acknowledgements
 
